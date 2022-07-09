@@ -1,0 +1,25 @@
+UIPEthernet.cpp:58:1:UIPEthernetClass::UIPEthernetClass()	0	static
+UIPEthernet.cpp:62:6:void UIPEthernetClass::init(uint8_t)	0	static
+UIPEthernet.cpp:162:20:EthernetLinkStatus UIPEthernetClass::linkStatus()	8	static
+UIPEthernet.cpp:170:24:EthernetHardwareStatus UIPEthernetClass::hardwareStatus()	8	static
+UIPEthernet.cpp:177:11:IPAddress UIPEthernetClass::localIP()	24	static
+UIPEthernet.cpp:188:11:IPAddress UIPEthernetClass::subnetMask()	24	static
+UIPEthernet.cpp:199:11:IPAddress UIPEthernetClass::gatewayIP()	24	static
+UIPEthernet.cpp:210:11:IPAddress UIPEthernetClass::dnsServerIP()	0	static
+UIPEthernet.cpp:365:6:static bool UIPEthernetClass::network_send()	16	static
+UIPEthernet.cpp:219:1:static void UIPEthernetClass::tick()	32	static
+UIPEthernet.cpp:402:6:static void UIPEthernetClass::netInit(const uint8_t*)	8	static
+UIPEthernet.cpp:416:6:static void UIPEthernetClass::configure(IPAddress, IPAddress, IPAddress, IPAddress)	16	static
+UIPEthernet.cpp:69:1:int UIPEthernetClass::begin(const uint8_t*)	48	static
+UIPEthernet.cpp:125:1:void UIPEthernetClass::begin(const uint8_t*, IPAddress, IPAddress, IPAddress, IPAddress)	48	static
+UIPEthernet.cpp:115:1:void UIPEthernetClass::begin(const uint8_t*, IPAddress, IPAddress, IPAddress)	72	static
+UIPEthernet.cpp:104:1:void UIPEthernetClass::begin(const uint8_t*, IPAddress, IPAddress)	48	static
+UIPEthernet.cpp:93:1:void UIPEthernetClass::begin(const uint8_t*, IPAddress)	32	static
+UIPEthernet.cpp:134:5:int UIPEthernetClass::maintain()	48	static
+UIPEthernet.cpp:438:1:static uint16_t UIPEthernetClass::chksum(uint16_t, const uint8_t*, uint16_t)	16	static
+UIPEthernet.cpp:474:1:static uint16_t UIPEthernetClass::ipchksum()	8	static
+UIPEthernet.cpp:488:1:static uint16_t UIPEthernetClass::upper_layer_chksum(uint8_t)	16	static
+UIPEthernet.cpp:579:1:uint16_t uip_ipchksum()	0	static
+UIPEthernet.cpp:586:1:uint16_t uip_tcpchksum()	0	static
+UIPEthernet.cpp:593:1:uint16_t uip_udpchksum()	0	static
+UIPEthernet.cpp:597:1:cpp)	16	static

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=XT2 Pin=Y1-1
+Removed Pin From Net: NetName=XT1 Pin=Y1-2
+Change Component Footprint: Designator=Y1 Old Footprint=HC-49S New Footprint=SMD5032
+Added Pin To Net: NetName=XT1 Pin=Y1-1
+Added Pin To Net: NetName=XT2 Pin=Y1-2
+Added Member To Class: ClassName=NXP_RESET_BOARD_V2 Member=Component U4 ENC28J60 module
+Added Room: Name=NXP_RESET_BOARD_V2

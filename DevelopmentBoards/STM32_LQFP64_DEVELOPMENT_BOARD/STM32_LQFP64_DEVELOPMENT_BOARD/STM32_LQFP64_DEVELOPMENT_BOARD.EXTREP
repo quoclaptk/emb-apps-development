@@ -1,0 +1,23 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: STM32_LQFP64_DEVELOPMENT_BOARD.GBR   2/14/2022  4:27:39 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Mechanical 1                            
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------

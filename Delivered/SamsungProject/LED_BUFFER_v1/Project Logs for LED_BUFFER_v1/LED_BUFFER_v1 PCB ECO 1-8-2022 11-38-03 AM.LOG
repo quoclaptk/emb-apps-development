@@ -1,0 +1,153 @@
+Added Component: Designator=*1(LED MATRIX 8x8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*2(LED MATRIX 8x8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*3(LED MATRIX 8x8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*4(LED MATRIX 8x8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*5(LED MATRIX 8x8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*6(LED MATRIX 8x8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*7(LED MATRIX 8x8)
+Add component. Clean all parameters for all variants
+Added Component: Designator=*8(LED MATRIX 8x8)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=1_ROW5 Pin=*1-1
+Added Pin To Net: NetName=1_ROW7 Pin=*1-2
+Added Pin To Net: NetName=1_COL2 Pin=*1-3
+Added Pin To Net: NetName=1_COL3 Pin=*1-4
+Added Pin To Net: NetName=1_ROW8 Pin=*1-5
+Added Pin To Net: NetName=1_COL5 Pin=*1-6
+Added Pin To Net: NetName=1_ROW6 Pin=*1-7
+Added Pin To Net: NetName=1_ROW3 Pin=*1-8
+Added Pin To Net: NetName=1_ROW1 Pin=*1-9
+Added Pin To Net: NetName=1_COL4 Pin=*1-10
+Added Pin To Net: NetName=1_COL6 Pin=*1-11
+Added Pin To Net: NetName=1_ROW4 Pin=*1-12
+Added Pin To Net: NetName=1_COL1 Pin=*1-13
+Added Pin To Net: NetName=1_ROW2 Pin=*1-14
+Added Pin To Net: NetName=1_COL7 Pin=*1-15
+Added Pin To Net: NetName=1_COL8 Pin=*1-16
+Added Pin To Net: NetName=2_ROW5 Pin=*2-1
+Added Pin To Net: NetName=2_ROW7 Pin=*2-2
+Added Pin To Net: NetName=2_COL2 Pin=*2-3
+Added Pin To Net: NetName=2_COL3 Pin=*2-4
+Added Pin To Net: NetName=2_ROW8 Pin=*2-5
+Added Pin To Net: NetName=2_COL5 Pin=*2-6
+Added Pin To Net: NetName=2_ROW6 Pin=*2-7
+Added Pin To Net: NetName=2_ROW3 Pin=*2-8
+Added Pin To Net: NetName=2_ROW1 Pin=*2-9
+Added Pin To Net: NetName=2_COL4 Pin=*2-10
+Added Pin To Net: NetName=2_COL6 Pin=*2-11
+Added Pin To Net: NetName=2_ROW4 Pin=*2-12
+Added Pin To Net: NetName=2_COL1 Pin=*2-13
+Added Pin To Net: NetName=2_ROW2 Pin=*2-14
+Added Pin To Net: NetName=2_COL7 Pin=*2-15
+Added Pin To Net: NetName=2_COL8 Pin=*2-16
+Added Pin To Net: NetName=3_ROW5 Pin=*3-1
+Added Pin To Net: NetName=3_ROW7 Pin=*3-2
+Added Pin To Net: NetName=3_COL2 Pin=*3-3
+Added Pin To Net: NetName=3_COL3 Pin=*3-4
+Added Pin To Net: NetName=3_ROW8 Pin=*3-5
+Added Pin To Net: NetName=3_COL5 Pin=*3-6
+Added Pin To Net: NetName=3_ROW6 Pin=*3-7
+Added Pin To Net: NetName=3_ROW3 Pin=*3-8
+Added Pin To Net: NetName=3_ROW1 Pin=*3-9
+Added Pin To Net: NetName=3_COL4 Pin=*3-10
+Added Pin To Net: NetName=3_COL6 Pin=*3-11
+Added Pin To Net: NetName=3_ROW4 Pin=*3-12
+Added Pin To Net: NetName=3_COL1 Pin=*3-13
+Added Pin To Net: NetName=3_ROW2 Pin=*3-14
+Added Pin To Net: NetName=3_COL7 Pin=*3-15
+Added Pin To Net: NetName=3_COL8 Pin=*3-16
+Added Pin To Net: NetName=4_ROW5 Pin=*4-1
+Added Pin To Net: NetName=4_ROW7 Pin=*4-2
+Added Pin To Net: NetName=4_COL2 Pin=*4-3
+Added Pin To Net: NetName=4_COL3 Pin=*4-4
+Added Pin To Net: NetName=4_ROW8 Pin=*4-5
+Added Pin To Net: NetName=4_COL5 Pin=*4-6
+Added Pin To Net: NetName=4_ROW6 Pin=*4-7
+Added Pin To Net: NetName=4_ROW3 Pin=*4-8
+Added Pin To Net: NetName=4_ROW1 Pin=*4-9
+Added Pin To Net: NetName=4_COL4 Pin=*4-10
+Added Pin To Net: NetName=4_COL6 Pin=*4-11
+Added Pin To Net: NetName=4_ROW4 Pin=*4-12
+Added Pin To Net: NetName=4_COL1 Pin=*4-13
+Added Pin To Net: NetName=4_ROW2 Pin=*4-14
+Added Pin To Net: NetName=4_COL7 Pin=*4-15
+Added Pin To Net: NetName=4_COL8 Pin=*4-16
+Added Pin To Net: NetName=5_ROW5 Pin=*5-1
+Added Pin To Net: NetName=5_ROW7 Pin=*5-2
+Added Pin To Net: NetName=5_COL2 Pin=*5-3
+Added Pin To Net: NetName=5_COL3 Pin=*5-4
+Added Pin To Net: NetName=5_ROW8 Pin=*5-5
+Added Pin To Net: NetName=5_COL5 Pin=*5-6
+Added Pin To Net: NetName=5_ROW6 Pin=*5-7
+Added Pin To Net: NetName=5_ROW3 Pin=*5-8
+Added Pin To Net: NetName=5_ROW1 Pin=*5-9
+Added Pin To Net: NetName=5_COL4 Pin=*5-10
+Added Pin To Net: NetName=5_COL6 Pin=*5-11
+Added Pin To Net: NetName=5_ROW4 Pin=*5-12
+Added Pin To Net: NetName=5_COL1 Pin=*5-13
+Added Pin To Net: NetName=5_ROW2 Pin=*5-14
+Added Pin To Net: NetName=5_COL7 Pin=*5-15
+Added Pin To Net: NetName=5_COL8 Pin=*5-16
+Added Pin To Net: NetName=6_ROW5 Pin=*6-1
+Added Pin To Net: NetName=6_ROW7 Pin=*6-2
+Added Pin To Net: NetName=6_COL2 Pin=*6-3
+Added Pin To Net: NetName=6_COL3 Pin=*6-4
+Added Pin To Net: NetName=6_ROW8 Pin=*6-5
+Added Pin To Net: NetName=6_COL5 Pin=*6-6
+Added Pin To Net: NetName=6_ROW6 Pin=*6-7
+Added Pin To Net: NetName=6_ROW3 Pin=*6-8
+Added Pin To Net: NetName=6_ROW1 Pin=*6-9
+Added Pin To Net: NetName=6_COL4 Pin=*6-10
+Added Pin To Net: NetName=6_COL6 Pin=*6-11
+Added Pin To Net: NetName=6_ROW4 Pin=*6-12
+Added Pin To Net: NetName=6_COL1 Pin=*6-13
+Added Pin To Net: NetName=6_ROW2 Pin=*6-14
+Added Pin To Net: NetName=6_COL7 Pin=*6-15
+Added Pin To Net: NetName=6_COL8 Pin=*6-16
+Added Pin To Net: NetName=8_ROW5 Pin=*7-1
+Added Pin To Net: NetName=8_ROW7 Pin=*7-2
+Added Pin To Net: NetName=8_COL2 Pin=*7-3
+Added Pin To Net: NetName=8_COL3 Pin=*7-4
+Added Pin To Net: NetName=8_ROW8 Pin=*7-5
+Added Pin To Net: NetName=8_COL5 Pin=*7-6
+Added Pin To Net: NetName=8_ROW6 Pin=*7-7
+Added Pin To Net: NetName=8_ROW3 Pin=*7-8
+Added Pin To Net: NetName=8_ROW1 Pin=*7-9
+Added Pin To Net: NetName=8_COL4 Pin=*7-10
+Added Pin To Net: NetName=8_COL6 Pin=*7-11
+Added Pin To Net: NetName=8_ROW4 Pin=*7-12
+Added Pin To Net: NetName=8_COL1 Pin=*7-13
+Added Pin To Net: NetName=8_ROW2 Pin=*7-14
+Added Pin To Net: NetName=8_COL7 Pin=*7-15
+Added Pin To Net: NetName=8_COL8 Pin=*7-16
+Added Pin To Net: NetName=7_ROW5 Pin=*8-1
+Added Pin To Net: NetName=7_ROW7 Pin=*8-2
+Added Pin To Net: NetName=7_COL2 Pin=*8-3
+Added Pin To Net: NetName=7_COL3 Pin=*8-4
+Added Pin To Net: NetName=7_ROW8 Pin=*8-5
+Added Pin To Net: NetName=7_COL5 Pin=*8-6
+Added Pin To Net: NetName=7_ROW6 Pin=*8-7
+Added Pin To Net: NetName=7_ROW3 Pin=*8-8
+Added Pin To Net: NetName=7_ROW1 Pin=*8-9
+Added Pin To Net: NetName=7_COL4 Pin=*8-10
+Added Pin To Net: NetName=7_COL6 Pin=*8-11
+Added Pin To Net: NetName=7_ROW4 Pin=*8-12
+Added Pin To Net: NetName=7_COL1 Pin=*8-13
+Added Pin To Net: NetName=7_ROW2 Pin=*8-14
+Added Pin To Net: NetName=7_COL7 Pin=*8-15
+Added Pin To Net: NetName=7_COL8 Pin=*8-16
+Added Member To Class: ClassName=LED_BUFFER_v1 Member=Component *1 LED MATRIX 8x8
+Added Member To Class: ClassName=LED_BUFFER_v1 Member=Component *2 LED MATRIX 8x8
+Added Member To Class: ClassName=LED_BUFFER_v1 Member=Component *3 LED MATRIX 8x8
+Added Member To Class: ClassName=LED_BUFFER_v1 Member=Component *4 LED MATRIX 8x8
+Added Member To Class: ClassName=LED_BUFFER_v1 Member=Component *5 LED MATRIX 8x8
+Added Member To Class: ClassName=LED_BUFFER_v1 Member=Component *6 LED MATRIX 8x8
+Added Member To Class: ClassName=LED_BUFFER_v1 Member=Component *7 LED MATRIX 8x8
+Added Member To Class: ClassName=LED_BUFFER_v1 Member=Component *8 LED MATRIX 8x8
+Added Room: Name=LED_BUFFER_v1

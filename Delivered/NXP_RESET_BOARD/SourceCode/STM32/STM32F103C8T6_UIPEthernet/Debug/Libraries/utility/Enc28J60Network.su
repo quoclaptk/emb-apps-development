@@ -1,0 +1,37 @@
+Enc28J60Network.cpp:409:1:static memaddress Enc28J60Network::blockSize(memhandle)	0	static
+Enc28J60Network.cpp:780:1:static uint8_t Enc28J60Network::readOp(uint8_t, uint8_t)	16	static
+Enc28J60Network.cpp:834:1:static void Enc28J60Network::writeOp(uint8_t, uint8_t, uint8_t)	16	static
+Enc28J60Network.cpp:867:1:static void Enc28J60Network::readBuffer(uint16_t, uint8_t*)	16	static
+Enc28J60Network.cpp:908:1:static void Enc28J60Network::writeBuffer(uint16_t, uint8_t*)	16	static
+Enc28J60Network.cpp:948:1:static void Enc28J60Network::setBank(uint8_t)	16	static
+Enc28J60Network.cpp:964:1:static uint8_t Enc28J60Network::readReg(uint8_t)	8	static
+Enc28J60Network.cpp:92:6:static void Enc28J60Network::initSPI()	16	static
+Enc28J60Network.cpp:609:9:static uint8_t Enc28J60Network::readRegByte(uint8_t)	0	static
+Enc28J60Network.cpp:977:1:static void Enc28J60Network::writeReg(uint8_t, uint8_t)	16	static
+Enc28J60Network.cpp:602:6:static void Enc28J60Network::disableMulticast()	8	static
+Enc28J60Network.cpp:595:6:static void Enc28J60Network::enableMulticast()	8	static
+Enc28J60Network.cpp:585:6:static void Enc28J60Network::disableBroadcast(bool)	8	static
+Enc28J60Network.cpp:576:6:static void Enc28J60Network::enableBroadcast(bool)	8	static
+Enc28J60Network.cpp:617:6:static void Enc28J60Network::writeRegByte(uint8_t, uint8_t)	0	static
+Enc28J60Network.cpp:989:1:static void Enc28J60Network::writeRegPair(uint8_t, uint16_t)	16	static
+Enc28J60Network.cpp:393:1:static void Enc28J60Network::setERXRDPT()	0	static
+Enc28J60Network.cpp:771:1:static void Enc28J60Network::freePacket()	0	static
+Enc28J60Network.cpp:321:1:static memhandle Enc28J60Network::receivePacket()	24	static
+Enc28J60Network.cpp:495:1:static uint16_t Enc28J60Network::setReadPtr(memhandle, memaddress, uint16_t)	16	static
+Enc28J60Network.cpp:511:1:static uint16_t Enc28J60Network::readPacket(memhandle, memaddress, uint8_t*, uint16_t)	16	static
+Enc28J60Network.cpp:540:1:static uint16_t Enc28J60Network::writePacket(memhandle, memaddress, uint8_t*, uint16_t)	24	static
+Enc28J60Network.cpp:626:9:static uint8_t Enc28J60Network::readByte(uint16_t)	8	static
+Enc28J60Network.cpp:665:6:static void Enc28J60Network::writeByte(uint16_t, uint8_t)	8	static
+Enc28J60Network.cpp:418:1:static bool Enc28J60Network::sendPacket(memhandle)	16	static
+Enc28J60Network.cpp:713:1:void enc28J60_mempool_block_move_callback(memaddress, memaddress, memaddress)	24	static
+Enc28J60Network.cpp:700:1:static void Enc28J60Network::copyPacket(memhandle, memaddress, memhandle, memaddress, uint16_t)	12	static
+Enc28J60Network.cpp:1002:1:static void Enc28J60Network::phyWrite(uint8_t, uint16_t)	8	static
+Enc28J60Network.cpp:202:6:static void Enc28J60Network::init(uint8_t*)	16	static
+Enc28J60Network.cpp:1030:1:static uint16_t Enc28J60Network::phyRead(uint8_t)	8	static
+Enc28J60Network.cpp:1058:1:static void Enc28J60Network::clkout(uint8_t)	0	static
+Enc28J60Network.cpp:1068:1:static uint16_t Enc28J60Network::chksum(uint16_t, memhandle, memaddress, uint16_t)	24	static
+Enc28J60Network.cpp:1142:1:void Enc28J60Network::powerOff()	8	static
+Enc28J60Network.cpp:1155:1:void Enc28J60Network::powerOn()	8	static
+Enc28J60Network.cpp:1168:1:static uint8_t Enc28J60Network::geterevid()	0	static
+Enc28J60Network.cpp:1179:1:uint16_t Enc28J60Network::PhyStatus()	8	static
+Enc28J60Network.cpp:1194:1:static bool Enc28J60Network::linkStatus()	8	static

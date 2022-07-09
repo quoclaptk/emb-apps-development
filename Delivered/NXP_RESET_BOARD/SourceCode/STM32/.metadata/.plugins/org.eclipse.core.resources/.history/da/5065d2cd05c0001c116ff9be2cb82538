@@ -1,0 +1,102 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.h
+  * @brief          : Header for main.c file.
+  *                   This file contains the common defines of the application.
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2022 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+
+/* Define to prevent recursive inclusion -------------------------------------*/
+#ifndef __MAIN_H
+#define __MAIN_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm32f1xx_hal.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+#include <string.h>
+//#include "itoa.h"
+#include "stdbool.h"
+/* USER CODE END Includes */
+
+/* Exported types ------------------------------------------------------------*/
+/* USER CODE BEGIN ET */
+#define bitRead(value, bit) (((value) >> (bit)) & 0x01)
+#define bitSet(value, bit) ((value) |= (1UL << (bit)))
+
+
+#  define __ATTR_PURE__  __attribute__((__pure__))
+#define word uint16_t
+uint8_t eeprom_read_byte (const uint8_t *__p) __ATTR_PURE__;
+#define millis() HAL_GetTick()
+#define bitClear(value, bit) ((value) &= ~(1UL << (bit)))
+#define bitToggle(value, bit) ((value) ^= (1UL << (bit)))
+#define bitWrite(value, bit, bitvalue) ((bitvalue) ? bitSet(value, bit) : bitClear(value, bit))
+#define pgm_read_byte(addr) (*(const unsigned char *)(addr))
+#define delay(x) HAL_Delay(x)
+#define PROGMEM
+#define PGM_P  const char *
+#define PSTR(str) (str)
+#define LOW false
+#define HIGH true
+#define byte uint8_t
+#define boolean bool
+#define memcpy_P(dest, src, num) memcpy((dest), (src), (num))
+#define strlen_P(a) strlen((a))
+/* USER CODE END ET */
+
+/* Exported constants --------------------------------------------------------*/
+/* USER CODE BEGIN EC */
+extern void cs(bool level);
+extern uint8_t spiWrite(uint8_t data);
+/* USER CODE END EC */
+
+/* Exported macro ------------------------------------------------------------*/
+/* USER CODE BEGIN EM */
+
+/* USER CODE END EM */
+
+/* Exported functions prototypes ---------------------------------------------*/
+void Error_Handler(void);
+
+/* USER CODE BEGIN EFP */
+
+/* USER CODE END EFP */
+
+/* Private defines -----------------------------------------------------------*/
+#define CS_Pin GPIO_PIN_8
+#define CS_GPIO_Port GPIOA
+#define LED_Pin GPIO_PIN_9
+#define LED_GPIO_Port GPIOA
+#define HC_DATA_Pin GPIO_PIN_10
+#define HC_DATA_GPIO_Port GPIOA
+#define HC_CLK_Pin GPIO_PIN_11
+#define HC_CLK_GPIO_Port GPIOA
+#define HC_LAT_Pin GPIO_PIN_12
+#define HC_LAT_GPIO_Port GPIOA
+/* USER CODE BEGIN Private defines */
+
+/* USER CODE END Private defines */
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* __MAIN_H */

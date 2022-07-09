@@ -1,0 +1,8 @@
+utility.cpp:12:1:Utility::Utility()	16	static
+utility.cpp:17:1:Utility::~Utility()	16	static
+utility.cpp:17:1:virtual Utility::~Utility()	16	static
+utility.cpp:22:6:void Utility::delay_us(uint32_t)	24	static
+utility.cpp:32:6:void Utility::delay_ms(uint32_t)	24	static
+utility.cpp:42:10:uint32_t Utility::micros()	16	static
+utility.cpp:47:10:uint32_t Utility::millis()	16	static
+utility.cpp:52:6:void Utility::digitalWrite(uint16_t, bool)	16	static

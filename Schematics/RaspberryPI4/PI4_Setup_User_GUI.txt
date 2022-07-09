@@ -1,0 +1,46 @@
+
+Username: pi
+Pass: raspberry
+/***********************************************************************************/
++ Set hostname:
+sudo hostname raspberry
+/***********************************************************************************/
+
++ Enable root login:
+sudo passwd root
+sudo nano /etc/ssh/sshd_config -> PermitRootLogin yes -> systemctl restart sshd.service
+/***********************************************************************************/
+
++ Setup Web Server
+sudo apt install apache2 -y
+sudo apt install mariadb-server php-mysql -y
+sudo apt install phpmyadmin -y
+sudo nano /etc/apache2/apache2.conf -> Add to end file "Include /etc/phpmyadmin/apache.conf"
+sudo service apache2 restart
+
+sudo mysql_secure_installation
+    Enter current password for root (enter for none): 123456
+    Set root password? [Y/n]: n
+    Remove anonymous users? [Y/n]: n
+    Disallow root login remotely? [Y/n]: n
+    Remove test database and access to it? [Y/n]:  n
+    Reload privilege tables now? [Y/n]:  y
+
+/***********************************************************************************/
+sudo mysqld_safe --skip-grant-tables
+mysql -u root -p
+use mysql;
+set password for 'root'@'localhost' = password('123456');
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
+flush privileges;
+quit
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
+change to: bind-address            = 127.0.0.1 to bind-address            = 0.0.0.0
+service mysql restart
+
+mysql -u root -p -> The system will request an password to login DB -> OK
+/***********************************************************************************/
+
+
+
+sudo apt-get install pulseaudio pulseaudio-module-bluetooth

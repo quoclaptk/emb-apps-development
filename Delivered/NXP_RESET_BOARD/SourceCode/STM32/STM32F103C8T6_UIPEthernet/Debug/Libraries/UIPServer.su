@@ -1,0 +1,10 @@
+UIPServer.cpp:87:8:virtual size_t UIPServer::write(uint8_t)	16	static
+UIPServer.cpp:65:6:virtual void UIPServer::begin(uint16_t)	8	static
+UIPServer.cpp:58:6:virtual void UIPServer::begin()	8	static
+UIPServer.cpp:92:8:virtual size_t UIPServer::write(const uint8_t*, size_t)	32	static
+UIPServer.cpp:26:1:UIPServer::UIPServer(uint16_t)	16	static
+UIPServer.cpp:30:11:UIPClient UIPServer::available()	24	static
+UIPServer.cpp:43:11:UIPClient UIPServer::accept()	24	static
+UIPServer.cpp:70:6:void UIPServer::end()	40	static
+UIPServer.cpp:83:1:UIPServer::operator bool()	0	static
+UIPServer.cpp:101:1:cpp)	16	static

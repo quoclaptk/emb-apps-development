@@ -1,0 +1,7 @@
+UIPUdp.h:85:21:virtual int UIPUDP::read(char*, size_t)	0	static
+Dns.cpp:64:6:void DNSClient::begin(const IPAddress&)	0	static
+Dns.cpp:71:5:int DNSClient::inet_aton(const char*, IPAddress&)	12	static
+Dns.cpp:434:1:cpp)	16	static
+Dns.cpp:187:10:uint16_t DNSClient::BuildRequest(const char*)	32	static
+Dns.cpp:267:9:int16_t DNSClient::ProcessResponse(uint16_t, IPAddress&)	56	static
+Dns.cpp:130:5:int DNSClient::getHostByName(const char*, IPAddress&)	32	static

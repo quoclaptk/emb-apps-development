@@ -1,0 +1,14 @@
+Change Component Designator: OldDesignator=PORTA NewDesignator=H1
+Change Component Designator: OldDesignator=PORTB NewDesignator=H3
+Change Component Designator: OldDesignator=PORTC NewDesignator=H2
+Change Component Designator: OldDesignator=PORTD NewDesignator=H4
+Added Pin To Net: NetName=PG5 Pin=H3-14
+Added Pin To Net: NetName=PG6 Pin=H3-15
+Added Pin To Net: NetName=PG7 Pin=H3-16
+Added Pin To Net: NetName=PG5 Pin=SOCKET1-34
+Added Pin To Net: NetName=PG6 Pin=SOCKET1-35
+Added Pin To Net: NetName=PG7 Pin=SOCKET1-36
+Change Net Name : Old Net Name=PG5 New Net Name=PB13
+Change Net Name : Old Net Name=PG6 New Net Name=PB14
+Change Net Name : Old Net Name=PG7 New Net Name=PB15
+Added Room: Name=STM32_LQFP64_DEVELOPMENT_BOARD

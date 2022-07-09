@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetC1_2 Pin=T1-1
+Removed Pin From Net: NetName=NetD3_1 Pin=T1-2
+Removed Pin From Net: NetName=NetC4_2 Pin=T1-4
+Removed Pin From Net: NetName=NetC5_1 Pin=T1-5
+Removed Pin From Net: NetName=NetC2_2 Pin=T1-6
+Removed Pin From Net: NetName=NetD2_1 Pin=T1-10
+Removed Member From Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3 Member=T1
+Added Component: Designator=T?(TRANSFORMER-EE22-VERTICAL(5+5))
+Added Pin To Net: NetName=NetC1_2 Pin=T?-1
+Added Pin To Net: NetName=NetD3_1 Pin=T?-2
+Added Pin To Net: NetName=NetC4_2 Pin=T?-4
+Added Pin To Net: NetName=NetC5_1 Pin=T?-5
+Added Pin To Net: NetName=NetC2_2 Pin=T?-7
+Added Pin To Net: NetName=NetD2_1 Pin=T?-9
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3 Member=Component T? EE22
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3

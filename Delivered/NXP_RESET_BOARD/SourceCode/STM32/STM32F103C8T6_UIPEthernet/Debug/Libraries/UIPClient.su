@@ -1,0 +1,30 @@
+UIPClient.h:90:16:virtual bool UIPClient::operator!=(const UIPClient&)	8	static
+UIPClient.cpp:155:1:virtual uint8_t UIPClient::connected()	0	static
+UIPClient.cpp:164:1:virtual bool UIPClient::operator==(const UIPClient&)	0	static
+UIPClient.cpp:356:1:virtual int UIPClient::read()	16	static
+UIPClient.h:79:9:UIPClient::~UIPClient()	0	static
+UIPClient.cpp:172:1:virtual UIPClient::operator bool()	8	static
+UIPClient.cpp:57:1:virtual int UIPClient::connect(IPAddress, uint16_t)	24	static
+UIPClient.cpp:98:1:virtual int UIPClient::connect(const char*, uint16_t)	72	static
+UIPClient.h:79:9:virtual UIPClient::~UIPClient()	8	static
+UIPClient.cpp:368:1:virtual int UIPClient::peek()	16	static
+UIPClient.h:79:9:virtual void* UIPClient::_ZThn8_N9UIPClientD1Ev()	0	static
+UIPClient.cpp:46:1:UIPClient::UIPClient()	8	static
+UIPClient.cpp:51:1:UIPClient::UIPClient(uip_userdata_t*)	8	static
+UIPClient.cpp:299:1:static int UIPClient::_available(uip_userdata_t*)	16	static
+UIPClient.cpp:288:1:virtual int UIPClient::available()	0	static
+UIPClient.cpp:398:1:IPAddress UIPClient::remoteIP()	24	static
+UIPClient.cpp:407:1:uint16_t UIPClient::remotePort()	0	static
+UIPClient.cpp:576:1:static uip_userdata_t* UIPClient::_allocateData()	16	static
+UIPClient.cpp:596:1:static uint8_t UIPClient::_currentBlock(memhandle*)	0	static
+UIPClient.cpp:200:1:static uint16_t UIPClient::_write(uip_userdata_t*, const uint8_t*, size_t)	32	static
+UIPClient.cpp:182:1:virtual size_t UIPClient::write(uint8_t)	16	static
+UIPClient.cpp:191:1:virtual size_t UIPClient::write(const uint8_t*, size_t)	8	static
+UIPClient.cpp:276:1:virtual int UIPClient::availableForWrite()	8	static
+UIPClient.cpp:610:1:static void UIPClient::_eatBlock(memhandle*)	8	static
+UIPClient.cpp:313:1:virtual int UIPClient::read(uint8_t*, size_t)	32	static
+UIPClient.cpp:644:1:static void UIPClient::_flushBlocks(memhandle*)	16	static
+UIPClient.cpp:119:1:virtual void UIPClient::stop()	8	static
+UIPClient.cpp:386:1:virtual void UIPClient::flush()	0	static
+UIPClient.cpp:416:1:void uipclient_appcall()	40	static
+UIPClient.cpp:654:1:cpp)	16	static

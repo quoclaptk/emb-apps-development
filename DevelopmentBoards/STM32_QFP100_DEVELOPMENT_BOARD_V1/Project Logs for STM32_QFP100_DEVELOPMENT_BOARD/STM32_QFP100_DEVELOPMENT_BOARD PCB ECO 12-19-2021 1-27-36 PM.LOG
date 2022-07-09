@@ -1,0 +1,6 @@
+Change Component Comment : Designator=J9 Old Comment=ARM-JTAG-20 New Comment=JTAG
+Added Component: Designator=J?(IDC_CONNECTOR_10x2.54)
+Added Component: Designator=SW?(SWITCH 5.8x5.8 6 PINS)
+Added Member To Class: ClassName=STM32_QFP100_DEVELOPMENT_BOARD Member=Component J? IDC_2.54_5x2
+Added Member To Class: ClassName=STM32_QFP100_DEVELOPMENT_BOARD Member=Component SW? SWITCH-DPDT
+Added Room: Name=STM32_QFP100_DEVELOPMENT_BOARD

@@ -1,0 +1,6 @@
+mempool.cpp:29:1:static void MemoryPool::init()	8	static
+mempool.cpp:41:1:static memhandle MemoryPool::allocBlock(memaddress)	32	static
+mempool.cpp:146:1:static void MemoryPool::freeBlock(memhandle)	8	static
+mempool.cpp:185:1:static void MemoryPool::resizeBlock(memhandle, memaddress)	8	static
+mempool.cpp:196:1:static void MemoryPool::resizeBlock(memhandle, memaddress, memaddress)	12	static
+mempool.cpp:207:1:static memaddress MemoryPool::blockSize(memhandle)	0	static

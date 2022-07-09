@@ -1,0 +1,8 @@
+Change Component Comment : Designator=R7 Old Comment=10K New Comment=0.47R/1W
+Change Component Comment : Designator=R2 Old Comment=10K New Comment=3K3
+Change Component Comment : Designator=R3 Old Comment=10K New Comment=100K
+Change Component Comment : Designator=R6 Old Comment=10K New Comment=220K
+Change Component Comment : Designator=C1 Old Comment=10uF New Comment=100uF
+Change Component Comment : Designator=D7 Old Comment=18V New Comment=10V
+Change Component Comment : Designator=C6 Old Comment=104 New Comment=471/1kV
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY

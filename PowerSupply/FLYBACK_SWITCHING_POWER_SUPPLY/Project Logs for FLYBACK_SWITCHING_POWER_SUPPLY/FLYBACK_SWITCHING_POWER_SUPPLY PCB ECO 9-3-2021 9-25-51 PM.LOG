@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=Q2-1
+Removed Pin From Net: NetName=NetC5_1 Pin=Q2-3
+Change Component Comment : Designator=Q2 Old Comment=S8050 New Comment=BC547
+Added Pin To Net: NetName=NetC5_1 Pin=Q2-1
+Added Pin To Net: NetName=GND Pin=Q2-3
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY

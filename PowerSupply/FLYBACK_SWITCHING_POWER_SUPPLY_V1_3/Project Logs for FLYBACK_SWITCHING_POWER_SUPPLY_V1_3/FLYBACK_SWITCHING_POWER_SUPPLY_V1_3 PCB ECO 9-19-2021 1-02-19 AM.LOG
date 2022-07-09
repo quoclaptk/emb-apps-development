@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=C4 Old Footprint=CAP-FILM-6X8MM New Footprint=CAP-FILM-5MM
+Change Component Comment : Designator=C4 Old Comment=2n2 New Comment=222J
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3

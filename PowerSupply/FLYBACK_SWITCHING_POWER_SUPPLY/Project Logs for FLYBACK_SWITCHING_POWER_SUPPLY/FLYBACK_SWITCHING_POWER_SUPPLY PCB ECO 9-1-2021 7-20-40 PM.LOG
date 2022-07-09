@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetC5_1 Pin=R3-1
+Removed Member From Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=R3
+Change Component Comment : Designator=R1 Old Comment=10K New Comment=2M
+Added Pin To Net: NetName=NetC5_1 Pin=R1-1
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY

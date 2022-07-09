@@ -1,0 +1,6 @@
+lcd_driver.pbi: \
+  D:\EmbeddedProjects\OneDrive\applications\STM8_Projects\STM8S_LCD_16X2\Drivers\src\lcd_driver.c \
+  D:\EmbeddedProjects\OneDrive\applications\STM8_Projects\STM8S_LCD_16X2\EWSTM8\..\Drivers\inc\lcd_driver.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\iostm8s105k4.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc/io_macros.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

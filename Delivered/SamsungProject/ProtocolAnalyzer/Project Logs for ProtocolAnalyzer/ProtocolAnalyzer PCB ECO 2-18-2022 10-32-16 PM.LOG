@@ -1,0 +1,54 @@
+Added Component: Designator=B1(CR1220)
+Added Component: Designator=C1(C0805)
+Added Component: Designator=C2(C0805)
+Added Component: Designator=D1(L0805RED)
+Added Component: Designator=MCU1(MEGA2560-PRO)
+Added Component: Designator=R1(R0805)
+Added Component: Designator=R2(R0805)
+Added Component: Designator=R3(R0805)
+Added Component: Designator=U1(SOIC08_1.27_6.0)
+Added Component: Designator=Y1(DT-26)
+Added Pin To Net: NetName=GND Pin=B1-2
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=MCU1-72
+Added Pin To Net: NetName=GND Pin=MCU1-73
+Added Pin To Net: NetName=GND Pin=MCU1-81
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=Y1-3
+Added Net: Name=GND
+Added Pin To Net: NetName=NetB1_1 Pin=B1-1
+Added Pin To Net: NetName=NetB1_1 Pin=U1-3
+Added Net: Name=NetB1_1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=NetC1_2 Pin=U1-1
+Added Pin To Net: NetName=NetC1_2 Pin=Y1-2
+Added Net: Name=NetC1_2
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=U1-2
+Added Pin To Net: NetName=NetC2_2 Pin=Y1-1
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R3-1
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Pin To Net: NetName=NetR3_2 Pin=U1-7
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=SCL Pin=MCU1-21
+Added Pin To Net: NetName=SCL Pin=R1-1
+Added Pin To Net: NetName=SCL Pin=U1-6
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=MCU1-20
+Added Pin To Net: NetName=SDA Pin=R2-1
+Added Pin To Net: NetName=SDA Pin=U1-5
+Added Net: Name=SDA
+Added Pin To Net: NetName=VCC Pin=MCU1-74
+Added Pin To Net: NetName=VCC Pin=MCU1-75
+Added Pin To Net: NetName=VCC Pin=MCU1-85
+Added Pin To Net: NetName=VCC Pin=R1-2
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Pin To Net: NetName=VCC Pin=U1-8
+Added Net: Name=VCC
+Added Class: Name=ProtocolAnalyzer
+Added Room: Name=ProtocolAnalyzer

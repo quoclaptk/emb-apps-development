@@ -1,0 +1,25 @@
+stm8s_tim3.pbi: \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\Driver\src\stm8s_tim3.c \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_tim3.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc/stm8s.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Source\stm8s_conf.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_adc2.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_awu.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_beep.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_clk.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_exti.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_flash.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_gpio.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_i2c.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_itc.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_iwdg.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_rst.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_spi.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_tim1.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_tim2.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_tim4.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_uart1.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_uart3.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S207R8T6_GPIO_CPlusPlus\EWSTM8S\..\Driver\inc\stm8s_wwdg.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

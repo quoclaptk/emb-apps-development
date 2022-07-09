@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=C8-1
+Removed Pin From Net: NetName=NetC8_2 Pin=C8-2
+Removed Member From Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=C8
+Change Net Name : Old Net Name=NetC8_2 New Net Name=NetQ1_3
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY

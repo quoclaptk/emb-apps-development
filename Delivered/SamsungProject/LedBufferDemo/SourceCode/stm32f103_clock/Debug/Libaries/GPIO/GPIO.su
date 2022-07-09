@@ -1,0 +1,6 @@
+GPIO.c:14:6:GPIO_Set_Port	16	static
+GPIO.c:18:6:GPIO_Set_Pin	24	static
+GPIO.c:69:6:GPIO_Set_Mode	32	static
+GPIO.c:214:6:GPIO_SET	16	static
+GPIO.c:234:6:GPIO_RESET	16	static
+GPIO.c:254:6:GPIO_init	24	static

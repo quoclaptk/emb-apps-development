@@ -1,0 +1,12 @@
+STM32Flash.cpp:10:1:STM32Flash::STM32Flash()	16	static
+STM32Flash.cpp:15:1:STM32Flash::~STM32Flash()	16	static
+STM32Flash.cpp:15:1:virtual STM32Flash::~STM32Flash()	16	static
+STM32Flash.cpp:21:6:void STM32Flash::deleteBuffer(char*)	24	static
+STM32Flash.cpp:30:6:void STM32Flash::flashLock()	16	static
+STM32Flash.cpp:35:6:void STM32Flash::flashUnlock()	16	static
+STM32Flash.cpp:40:6:void STM32Flash::flashErase(uint32_t)	16	static
+STM32Flash.cpp:52:6:void STM32Flash::flashWriteInt(uint32_t, int)	24	static
+STM32Flash.cpp:63:10:uint16_t STM32Flash::flashReadInt(uint32_t)	24	static
+STM32Flash.cpp:69:6:void STM32Flash::flashWriteDword(uint32_t, uint32_t*, uint8_t)	32	static
+STM32Flash.cpp:83:6:void STM32Flash::flashReadChar(char*, uint32_t, uint32_t)	40	static
+STM32Flash.cpp:101:6:void STM32Flash::flashProgramPage(char*, uint32_t, uint32_t)	24	static

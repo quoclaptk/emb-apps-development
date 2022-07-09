@@ -1,0 +1,9 @@
+.vscode/
+*.pyc
+**/EWARM/*.dep
+**/EWARM/settings/
+**/EWARM/**/Exe/
+**/EWARM/**/List/
+**/EWARM/**/Obj/
+**/GCC/build/
+.sconsign.dblite

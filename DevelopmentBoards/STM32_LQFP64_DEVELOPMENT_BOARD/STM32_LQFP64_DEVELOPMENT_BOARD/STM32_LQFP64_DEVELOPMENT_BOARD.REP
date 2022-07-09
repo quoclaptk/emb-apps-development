@@ -1,0 +1,302 @@
+*************************************************************
+FileName = STM32_LQFP64_DEVELOPMENT_BOARD.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 1
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D60
+    D61
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : STM32_LQFP64_DEVELOPMENT_BOARD.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D60
+*************************************************************
+

@@ -1,0 +1,16 @@
+What you need to build this inverter 12V To 220V
+ IRFZ44N MOSFET  OR  N-Channel MOSFET
+2N2222  transistor
+680r resistor 
+15k resistor 
+1K resistor  + LED 
+ 2.2nF 2A222j   capacitor 
+Heat sink
+Transformer From ATX Power Supply 
+PCB Board   inverter 12V To 220V 
+12V Battery
+
+Follow Me
+https://www.facebook.com/Easyonee
+https://twitter.com/Eaasyone
+https://www.instagram.com/easyyone

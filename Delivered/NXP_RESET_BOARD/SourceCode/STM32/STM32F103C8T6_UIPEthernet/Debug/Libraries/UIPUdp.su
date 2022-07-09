@@ -1,0 +1,20 @@
+UIPUdp.h:85:21:virtual int UIPUDP::read(char*, size_t)	0	static
+UIPUdp.cpp:201:1:virtual size_t UIPUDP::write(uint8_t)	16	static
+UIPUdp.cpp:277:1:virtual int UIPUDP::read()	16	static
+UIPUdp.cpp:44:1:virtual uint8_t UIPUDP::begin(uint16_t)	16	static
+UIPUdp.cpp:355:1:virtual uint16_t UIPUDP::remotePort()	0	static
+UIPUdp.cpp:64:1:virtual void UIPUDP::stop()	16	static
+UIPUdp.cpp:333:1:virtual void UIPUDP::flush()	8	static
+UIPUdp.cpp:86:1:virtual int UIPUDP::beginPacket(IPAddress, uint16_t)	32	static
+UIPUdp.cpp:211:1:virtual size_t UIPUDP::write(const uint8_t*, size_t)	8	static
+UIPUdp.cpp:228:1:virtual int UIPUDP::parsePacket()	8	static
+UIPUdp.cpp:266:1:virtual int UIPUDP::available()	8	static
+UIPUdp.cpp:316:1:virtual int UIPUDP::peek()	16	static
+UIPUdp.cpp:293:1:virtual int UIPUDP::read(unsigned char*, size_t)	16	static
+UIPUdp.cpp:345:1:virtual IPAddress UIPUDP::remoteIP()	24	static
+UIPUdp.cpp:36:1:UIPUDP::UIPUDP()	8	static
+UIPUdp.cpp:158:1:virtual int UIPUDP::beginPacket(const char*, uint16_t)	72	static
+UIPUdp.cpp:366:1:void uipudp_appcall()	32	static
+UIPUdp.cpp:411:1:static void UIPUDP::_send(uip_udp_userdata_t*)	16	static
+UIPUdp.cpp:180:1:virtual int UIPUDP::endPacket()	16	static
+UIPUdp.cpp:436:1:cpp)	16	static

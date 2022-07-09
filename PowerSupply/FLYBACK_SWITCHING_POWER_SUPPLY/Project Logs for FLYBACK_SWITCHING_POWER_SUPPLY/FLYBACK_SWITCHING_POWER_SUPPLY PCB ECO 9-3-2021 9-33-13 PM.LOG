@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetD11_1 Pin=D11-3
+Change Component Footprint: Designator=D11 Old Footprint=TO-220F-HEAT-SINK New Footprint=DO-201AD-BK
+Change Component Comment : Designator=D11 Old Comment=20100CT New Comment=1N5408
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY

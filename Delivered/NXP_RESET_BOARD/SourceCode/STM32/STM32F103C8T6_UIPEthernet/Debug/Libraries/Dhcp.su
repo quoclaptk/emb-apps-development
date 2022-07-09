@@ -1,0 +1,15 @@
+UIPUdp.h:85:21:virtual int UIPUDP::read(char*, size_t)	0	static
+Dhcp.cpp:39:6:void DhcpClass::reset_DHCP_lease()	0	static
+Dhcp.cpp:166:6:void DhcpClass::presend_DHCP()	0	static
+Dhcp.cpp:494:11:IPAddress DhcpClass::getLocalIp()	8	static
+Dhcp.cpp:502:11:IPAddress DhcpClass::getSubnetMask()	8	static
+Dhcp.cpp:510:11:IPAddress DhcpClass::getGatewayIp()	8	static
+Dhcp.cpp:518:11:IPAddress DhcpClass::getDhcpServerIp()	8	static
+Dhcp.cpp:526:11:IPAddress DhcpClass::getDnsServerIp()	8	static
+Dhcp.cpp:534:6:void DhcpClass::printByte(char*, uint8_t)	0	static
+Dhcp.cpp:546:1:cpp)	16	static
+Dhcp.cpp:173:6:void DhcpClass::send_DHCP_MESSAGE(uint8_t, uint16_t)	80	static
+Dhcp.cpp:294:9:uint8_t DhcpClass::parseDHCPResponse(uint32_t&)	112	static
+Dhcp.cpp:48:5:int DhcpClass::request_DHCP_lease()	40	static
+Dhcp.cpp:20:5:int DhcpClass::beginWithDHCP(uint8_t*)	24	static
+Dhcp.cpp:437:5:int DhcpClass::checkLease()	16	static

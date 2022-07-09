@@ -1,0 +1,4 @@
+main.cpp:64:5:int main()	8	static
+main.cpp:107:6:void SystemClock_Config()	80	static
+main.cpp:145:13:void MX_GPIO_Init()	32	static
+main.cpp:188:6:void Error_Handler()	8	static,ignoring_inline_asm

@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetC1_1 Pin=D1-2
+Removed Pin From Net: NetName=NetD1_1 Pin=T1-7
+Change Component Footprint: Designator=D1 Old Footprint=DO-201AD-BK New Footprint=LED_5MM
+Change Component Comment : Designator=D1 Old Comment=SB360 New Comment=LED
+Added Component: Designator=D11(TO-220F)
+Added Component: Designator=R6(RES-0.25W-H)
+Added Pin To Net: NetName=NetC1_2 Pin=D1-2
+Added Pin To Net: NetName=NetC1_1 Pin=D11-2
+Added Pin To Net: NetName=NetC1_1 Pin=R6-1
+Added Pin To Net: NetName=NetD1_1 Pin=R6-2
+Added Pin To Net: NetName=NetD11_1 Pin=D11-1
+Added Pin To Net: NetName=NetD11_1 Pin=D11-3
+Added Pin To Net: NetName=NetD11_1 Pin=T1-7
+Added Net: Name=NetD11_1
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=Component D11 MBRF-20100CT
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=Component R6 2K5
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY

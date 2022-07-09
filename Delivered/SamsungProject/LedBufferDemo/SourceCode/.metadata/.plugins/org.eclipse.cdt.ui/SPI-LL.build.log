@@ -1,0 +1,7 @@
+18:57:18 **** Build of configuration Debug for project SPI-LL ****
+make -j8 all 
+make: *** No rule to make target 'D:/PROJECTS_2022/MyProjects/Delivered/SamsungProject/LedBufferDemo/SourceCode/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c', needed by 'Drivers/STM32F1xx_HAL_Driver/stm32f1xx_ll_dma.o'.  Stop.
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+18:57:18 Build Failed. 1 errors, 0 warnings. (took 197ms)
+

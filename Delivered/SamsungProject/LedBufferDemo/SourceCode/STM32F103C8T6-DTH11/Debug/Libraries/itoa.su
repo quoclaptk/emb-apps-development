@@ -1,0 +1,4 @@
+itoa.c:70:14:itoa	24	static
+itoa.c:75:14:ltoa	80	static
+itoa.c:125:14:utoa	24	static
+itoa.c:130:14:ultoa	80	static

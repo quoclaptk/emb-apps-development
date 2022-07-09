@@ -1,0 +1,11 @@
+uip.c:181:6:uip_setipid	16	static
+uip.c:249:1:uip_add32	16	static
+uip.c:380:1:uip_init	4	static
+uip.c:408:1:uip_connect	24	static
+uip.c:474:1:uip_udp_new	24	static
+uip.c:519:1:uip_unlisten	16	static
+uip.c:530:1:uip_listen	16	static
+uip.c:673:1:uip_add_rcv_nxt	16	static
+uip.c:683:1:uip_process	32	static
+uip.c:1885:1:htons	16	static
+uip.c:1891:1:uip_send	16	static

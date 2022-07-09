@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=NetQ2_2 Pin=R9-2
+Removed Pin From Net: NetName=NetC2_1 Pin=U1-4
+Change Component Comment : Designator=R9 Old Comment=0R New Comment=200K
+Change Component Comment : Designator=R1 Old Comment=1M New Comment=2M2/1W
+Change Component Comment : Designator=R8 Old Comment=100R New Comment=47R
+Added Component: Designator=C8(CAP_Ceramic_2.5MM)
+Added Component: Designator=D3(DO-204AL-RD)
+Added Component: Designator=R2(RES-0.25W-H)
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=NetQ1_3 Pin=C8-2
+Added Pin To Net: NetName=GND Pin=D3-1
+Added Pin To Net: NetName=NetC2_1 Pin=R2-2
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=NetC5_1 Pin=R9-2
+Added Pin To Net: NetName=NetQ2_2 Pin=U1-3
+Change Net Name : Old Net Name=NetQ1_3 New Net Name=NetC8_2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=R2-1
+Added Pin To Net: NetName=NetD3_2 Pin=U1-4
+Added Net: Name=NetD3_2
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=Component C8 101
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=Component D3 5V1
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=Component R2 3K3

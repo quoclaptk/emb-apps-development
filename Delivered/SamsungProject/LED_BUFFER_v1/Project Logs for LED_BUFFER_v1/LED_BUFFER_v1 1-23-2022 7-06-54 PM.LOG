@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=*7 NewDesignator=*8
+Change Component Designator: OldDesignator=*8 NewDesignator=*7
+Change Net Color : Old Net Color=Fuchsia New Net Color=Default
+Added Member To Class: ClassName=LED_BUFFER_v1 Member=Component *8 LED MATRIX 8x8
+Added Member To Class: ClassName=LED_BUFFER_v1 Member=Component P1 Header 3H

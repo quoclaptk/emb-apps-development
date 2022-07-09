@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=R1 Old Footprint=RES-0.25W-H New Footprint=RES-1W-H
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY

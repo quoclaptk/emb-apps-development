@@ -1,0 +1,2 @@
+Timer.c:10:6:Timer4_init	4	static
+Timer.c:20:6:Timer4_PWM	16	static

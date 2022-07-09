@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [STM32_LQFP64_DEVELOPMENT_BOARD.PrjPcb]
+   Generated File[STM32_LQFP64_DEVELOPMENT_BOARD-RoundHoles.TXT]
+   Generated File[STM32_LQFP64_DEVELOPMENT_BOARD-SlotHoles.TXT]
+   Generated File[STM32_LQFP64_DEVELOPMENT_BOARD.LDP]
+   Generated File[STM32_LQFP64_DEVELOPMENT_BOARD.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 4:28:29 PM On 2/14/2022

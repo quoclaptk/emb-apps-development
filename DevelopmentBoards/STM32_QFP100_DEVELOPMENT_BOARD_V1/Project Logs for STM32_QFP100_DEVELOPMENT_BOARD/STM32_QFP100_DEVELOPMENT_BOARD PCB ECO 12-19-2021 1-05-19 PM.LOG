@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=VCC Pin=R12-1
+Removed Pin From Net: NetName=JTMS Pin=R12-2
+Removed Pin From Net: NetName=VCC Pin=R14-1
+Removed Pin From Net: NetName=JNRST Pin=R14-2
+Removed Pin From Net: NetName=VCC Pin=R15-1
+Removed Pin From Net: NetName=JTDI Pin=R15-2
+Added Pin To Net: NetName=JTMS Pin=R12-1
+Added Pin To Net: NetName=VCC Pin=R12-2
+Added Pin To Net: NetName=JNRST Pin=R14-1
+Added Pin To Net: NetName=VCC Pin=R14-2
+Added Pin To Net: NetName=JTDI Pin=R15-1
+Added Pin To Net: NetName=VCC Pin=R15-2
+Added Room: Name=STM32_QFP100_DEVELOPMENT_BOARD

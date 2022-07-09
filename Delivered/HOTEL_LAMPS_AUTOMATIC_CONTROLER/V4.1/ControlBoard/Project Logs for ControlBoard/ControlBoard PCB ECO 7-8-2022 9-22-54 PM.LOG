@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=BT1 Pin=J3-5
+Removed Pin From Net: NetName=BT2 Pin=J3-6
+Removed Pin From Net: NetName=BT4 Pin=J3-8
+Removed Pin From Net: NetName=BT5 Pin=J3-9
+Removed Pin From Net: NetName=BT5 Pin=R14-1
+Removed Pin From Net: NetName=BT4 Pin=R15-1
+Removed Pin From Net: NetName=BT2 Pin=R26-1
+Removed Pin From Net: NetName=BT1 Pin=R32-1
+Added Pin To Net: NetName=BT5 Pin=J3-5
+Added Pin To Net: NetName=BT4 Pin=J3-6
+Added Pin To Net: NetName=BT2 Pin=J3-8
+Added Pin To Net: NetName=BT1 Pin=J3-9
+Added Pin To Net: NetName=BT1 Pin=R14-1
+Added Pin To Net: NetName=BT2 Pin=R15-1
+Added Pin To Net: NetName=BT4 Pin=R26-1
+Added Pin To Net: NetName=BT5 Pin=R32-1
+Added Room: Name=ControlBoard

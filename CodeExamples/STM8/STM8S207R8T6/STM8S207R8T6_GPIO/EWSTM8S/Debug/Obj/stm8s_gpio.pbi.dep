@@ -1,0 +1,24 @@
+stm8s_gpio.pbi: D:\STM8S207R8T6_GPIO\Driver\src\stm8s_gpio.c \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_gpio.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc/stm8s.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Source\stm8s_conf.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_adc2.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_awu.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_beep.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_clk.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_exti.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_flash.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_i2c.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_itc.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_iwdg.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_rst.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_spi.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_tim1.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_tim2.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_tim3.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_tim4.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_uart1.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_uart3.h \
+  D:\STM8S207R8T6_GPIO\EWSTM8S\..\Driver\inc\stm8s_wwdg.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: STM32_LQFP64_DEVELOPMENT_BOARD.PcbDoc   2/14/2022  4:28:29 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : STM32_LQFP64_DEVELOPMENT_BOARD-RoundHoles.TXT
+ASCII SlotHoles File : STM32_LQFP64_DEVELOPMENT_BOARD-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             20        PTH        9.01inch (228.95mm)
+T2      20mil (0.508mm)         +/-0mil (0mm)                     Round             2         PTH        0.06inch (1.40mm)
+T3      25mil (0.635mm)                                           Round             8         PTH        2.51inch (63.71mm)
+T4      32mil (0.8mm)                                             Slot              2         PTH        1.07inch (27.09mm)
+T5      35mil (0.889mm)                                           Round             170       PTH        28.64inch (727.45mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              202
+
+Total Processing Time (hh:mm:ss) : 00:00:00

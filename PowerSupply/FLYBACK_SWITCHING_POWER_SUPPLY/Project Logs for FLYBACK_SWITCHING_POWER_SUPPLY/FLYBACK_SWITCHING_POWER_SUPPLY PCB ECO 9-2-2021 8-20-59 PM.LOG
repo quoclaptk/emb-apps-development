@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetC5_1 Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=R6-1
+Removed Pin From Net: NetName=NetC5_1 Pin=R6-2
+Removed Member From Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=C5
+Removed Member From Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=R6
+Change Component Footprint: Designator=C4 Old Footprint=CAP_Ceramic_2.5MM New Footprint=CAP-FILM-6X8MM
+Change Component Comment : Designator=R1 Old Comment=2M New Comment=1M
+Change Component Comment : Designator=R9 Old Comment=100R New Comment=1K
+Change Component Comment : Designator=R8 Old Comment=100R New Comment=4K7
+Change Component Comment : Designator=C4 Old Comment=104 New Comment=472J
+Added Pin To Net: NetName=NetC5_1 Pin=C4-1
+Change Net Name : Old Net Name=NetC5_1 New Net Name=NetC4_1
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY

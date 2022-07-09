@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=NetC1_2 Pin=D1-1
+Removed Pin From Net: NetName=NetC3_2 Pin=D1-4
+Change Component Footprint: Designator=D1 Old Footprint=DIODE-KBP206 New Footprint=DO-204AL-BK
+Change Component Comment : Designator=D1 Old Comment=KBP206 New Comment=1N4007
+Change Component Designator: OldDesignator=T? NewDesignator=T1
+Added Component: Designator=D5(LED_5MM)
+Added Component: Designator=D6(DO-204AL-BK)
+Added Component: Designator=D7(DO-204AL-BK)
+Added Component: Designator=D8(DO-204AL-BK)
+Added Component: Designator=R10(RES-0.25W-H)
+Added Pin To Net: NetName=NetC1_2 Pin=D1-2
+Added Pin To Net: NetName=NetC2_1 Pin=D5-1
+Added Pin To Net: NetName=NetC1_2 Pin=D6-2
+Added Pin To Net: NetName=NetC3_2 Pin=D7-1
+Added Pin To Net: NetName=NetC3_2 Pin=D8-1
+Added Pin To Net: NetName=NetC2_2 Pin=R10-2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=D8-2
+Added Pin To Net: NetName=NetD1_1 Pin=J1-2
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD5_2 Pin=R10-1
+Added Net: Name=NetD5_2
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=NetD6_1 Pin=D7-2
+Added Pin To Net: NetName=NetD6_1 Pin=J1-1
+Added Net: Name=NetD6_1
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3 Member=Component D5 LED
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3 Member=Component D6 1N4007
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3 Member=Component D7 1N4007
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3 Member=Component D8 1N4007
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3 Member=Component R10 240R
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3

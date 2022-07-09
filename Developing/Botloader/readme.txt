@@ -1,0 +1,1 @@
+java -jar STM32Flasher.jar

@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=GND Pin=J10-S1
+Added Pin To Net: NetName=GND Pin=J10-S2
+Added Room: Name=STM32_QFP100_DEVELOPMENT_BOARD

@@ -1,0 +1,8 @@
+ledMatrix.cpp:14:1:ledMatrix::ledMatrix(void (*)(uint8_t))	16	static
+ledMatrix.cpp:20:1:ledMatrix::~ledMatrix()	16	static
+ledMatrix.cpp:20:1:virtual ledMatrix::~ledMatrix()	16	static
+ledMatrix.cpp:24:6:void ledMatrix::Coppy_Data_To_Ram(uint8_t, uint8_t)	24	static
+ledMatrix.cpp:42:6:void ledMatrix::ColumScroll(uint8_t, uint8_t)	24	static
+ledMatrix.cpp:49:6:void ledMatrix::ScrollTextFont(uint8_t, uint8_t, uint8_t)	24	static
+ledMatrix.cpp:68:6:void ledMatrix::write_data(uint8_t)	24	static
+ledMatrix.cpp:79:6:void ledMatrix::Clear_Display_Ram(uint8_t)	24	static

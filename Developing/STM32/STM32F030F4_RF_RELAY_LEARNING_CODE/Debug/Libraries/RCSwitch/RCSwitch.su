@@ -1,0 +1,42 @@
+RCSwitch.cpp:109:1:RCSwitch::RCSwitch()	16	static
+RCSwitch.cpp:123:6:void RCSwitch::setProtocol(RCSwitch::Protocol)	24	static
+RCSwitch.cpp:130:6:void RCSwitch::setProtocol(int)	16	static
+RCSwitch.cpp:144:6:void RCSwitch::setProtocol(int, int)	24	static
+RCSwitch.cpp:153:6:void RCSwitch::setPulseLength(int)	16	static
+RCSwitch.cpp:160:6:void RCSwitch::setRepeatTransmit(int)	16	static
+RCSwitch.cpp:168:6:void RCSwitch::setReceiveTolerance(int)	16	static
+RCSwitch.cpp:179:6:void RCSwitch::enableTransmit(int)	16	static
+RCSwitch.cpp:187:6:void RCSwitch::disableTransmit()	16	static
+RCSwitch.cpp:197:6:void RCSwitch::switchOn(char, int)	24	static
+RCSwitch.cpp:207:6:void RCSwitch::switchOff(char, int)	24	static
+RCSwitch.cpp:218:6:void RCSwitch::switchOn(char, int, int)	40	static
+RCSwitch.cpp:229:6:void RCSwitch::switchOff(char, int, int)	40	static
+RCSwitch.cpp:239:6:void RCSwitch::switchOn(int, int)	24	static
+RCSwitch.cpp:249:6:void RCSwitch::switchOff(int, int)	24	static
+RCSwitch.cpp:260:6:void RCSwitch::switchOn(const char*, int)	56	static
+RCSwitch.cpp:272:6:void RCSwitch::switchOff(const char*, int)	56	static
+RCSwitch.cpp:283:6:void RCSwitch::switchOn(const char*, const char*)	24	static
+RCSwitch.cpp:293:6:void RCSwitch::switchOff(const char*, const char*)	24	static
+RCSwitch.cpp:302:7:char* RCSwitch::getCodeWordA(const char*, const char*, bool)	40	static
+RCSwitch.cpp:338:7:char* RCSwitch::getCodeWordB(int, int, bool)	40	static
+RCSwitch.cpp:367:7:char* RCSwitch::getCodeWordC(char, int, int, bool)	32	static
+RCSwitch.cpp:417:7:char* RCSwitch::getCodeWordD(char, int, bool)	48	static
+RCSwitch.cpp:449:6:void RCSwitch::sendTriState(const char*)	32	static
+RCSwitch.cpp:476:6:void RCSwitch::send(const char*)	32	static
+RCSwitch.cpp:494:6:void RCSwitch::send(long unsigned int, unsigned int)	40	static
+RCSwitch.cpp:530:6:void RCSwitch::transmit(RCSwitch::HighLow)	32	static
+RCSwitch.cpp:545:6:void RCSwitch::enableReceive(int)	16	static
+RCSwitch.cpp:550:6:void RCSwitch::enableReceive()	16	static
+RCSwitch.cpp:561:6:void RCSwitch::disableReceive()	16	static
+RCSwitch.cpp:568:6:bool RCSwitch::available()	16	static
+RCSwitch.cpp:572:6:void RCSwitch::resetAvailable()	16	static
+RCSwitch.cpp:576:15:long unsigned int RCSwitch::getReceivedValue()	16	static
+RCSwitch.cpp:580:14:unsigned int RCSwitch::getReceivedBitlength()	16	static
+RCSwitch.cpp:584:14:unsigned int RCSwitch::getReceivedDelay()	16	static
+RCSwitch.cpp:588:14:unsigned int RCSwitch::getReceivedProtocol()	16	static
+RCSwitch.cpp:592:15:unsigned int* RCSwitch::getReceivedRawdata()	16	static
+RCSwitch.cpp:597:28:unsigned int diff(int, int)	16	static
+RCSwitch.cpp:604:19:static bool RCSwitch::receiveProtocol(int, unsigned int)	64	static
+RCSwitch.cpp:663:19:static void RCSwitch::handleInterrupt()	24	static
+RCSwitch.h:43:7:RCSwitch::~RCSwitch()	16	static
+RCSwitch.h:43:7:virtual RCSwitch::~RCSwitch()	16	static

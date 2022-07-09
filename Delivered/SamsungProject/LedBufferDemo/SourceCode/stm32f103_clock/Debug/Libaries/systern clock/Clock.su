@@ -1,0 +1,3 @@
+Clock.c:11:6:HSE_PLL_Clock_init	16	static
+Clock.c:36:6:HSE_72MHz_Init	4	static
+Clock.c:64:6:rcc_HSE_Configuration	4	static

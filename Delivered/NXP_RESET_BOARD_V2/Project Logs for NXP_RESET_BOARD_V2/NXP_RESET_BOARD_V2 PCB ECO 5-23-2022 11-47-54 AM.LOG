@@ -1,0 +1,3 @@
+Added Component: Designator=U1(ENC28J60)
+Added Member To Class: ClassName=NXP_RESET_BOARD_V2 Member=Component U1 ENC28J60 module
+Added Room: Name=NXP_RESET_BOARD_V2

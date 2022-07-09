@@ -1,0 +1,18 @@
+Added Component: Designator=C6(CAP_Ceramic_5MM)
+Added Component: Designator=D10(DO-204AL-BK)
+Added Component: Designator=R3(RES-0.5W-H)
+Added Pin To Net: NetName=NetC3_1 Pin=C6-2
+Added Pin To Net: NetName=NetC3_1 Pin=R3-2
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=D10-2
+Added Pin To Net: NetName=NetC6_1 Pin=R3-1
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetD10_1 Pin=D10-1
+Added Pin To Net: NetName=NetD10_1 Pin=Q1-2
+Added Pin To Net: NetName=NetD10_1 Pin=Q1-2
+Added Pin To Net: NetName=NetD10_1 Pin=T1-2
+Added Net: Name=NetD10_1
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=Component C6 104
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=Component D10 FR107
+Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=Component R3 10K
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY

@@ -1,0 +1,6 @@
+Change Component Comment : Designator=U1 Old Comment=STM32 MICROCONTROLLER New Comment=STM32 MICROCONTROLER
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=GND Pin=SW2-3
+Added Pin To Net: NetName=GND Pin=SW3-3
+Added Pin To Net: NetName=GND Pin=SW4-3
+Added Room: Name=STM32_QFP100_DEVELOPMENT_BOARD

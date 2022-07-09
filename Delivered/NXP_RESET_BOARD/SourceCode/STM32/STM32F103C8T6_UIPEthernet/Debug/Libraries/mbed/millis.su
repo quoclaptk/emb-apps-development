@@ -1,0 +1,2 @@
+millis.cpp:34:6:void millis_start()	0	static
+millis.cpp:54:26:long unsigned int millis()	0	static

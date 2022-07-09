@@ -1,0 +1,23 @@
+stm8s_gpio.pbi: \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\Drivers\src\stm8s_gpio.c \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_gpio.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc/stm8s.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Source\stm8s_conf.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_adc1.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_awu.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_beep.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_clk.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_exti.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_flash.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_i2c.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_itc.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_iwdg.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_rst.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_spi.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_tim1.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_tim2.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_tim4.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_uart1.h \
+  D:\embedded_projects\MyProjects\AUTOMATIC_WATER_PUMPS_V1\SouceCode\EWSTM8\..\Drivers\inc\stm8s_wwdg.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

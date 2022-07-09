@@ -1,0 +1,16 @@
+main.cpp:47:6:void spiWrite(uint8_t)	16	static
+main.cpp:52:6:void out_data()	8	static
+main.cpp:58:6:void Coppy_Data_To_Ram(uint8_t, uint8_t)	24	static
+main.cpp:76:6:void ColumScroll(uint8_t, uint8_t)	24	static
+main.cpp:83:6:void ScrollTextFont(uint8_t, uint8_t, uint8_t)	24	static
+main.cpp:102:6:void write_data(uint8_t)	24	static
+main.cpp:113:6:void Clear_Display_Ram(uint8_t)	24	static
+main.cpp:124:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	16	static
+main.cpp:140:6:void HAL_UART_RxCpltCallback(UART_HandleTypeDef*)	16	static
+main.cpp:155:5:int main()	8	static
+main.cpp:180:6:void SystemClock_Config()	72	static
+main.cpp:216:13:void MX_SPI1_Init()	8	static
+main.cpp:254:13:void MX_TIM4_Init()	32	static
+main.cpp:299:13:void MX_USART1_UART_Init()	8	static
+main.cpp:332:13:void MX_GPIO_Init()	32	static
+main.cpp:359:6:void Error_Handler()	4	static,ignoring_inline_asm

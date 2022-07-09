@@ -1,0 +1,41 @@
+main.pbi: \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Libraries\RCSwitch\pgmspace.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdlib.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\string.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ystdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xtgmath.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ymath.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\math.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Libraries\utility\utility.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Libraries\RCSwitch\RCSwitch.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_wwdg.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_uart3.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_uart1.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_tim4.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_tim3.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_tim2.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_tim1.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_spi.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_rst.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_iwdg.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_itc.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_i2c.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_gpio.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_flash.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_exti.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_clk.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_beep.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_awu.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\EWSTM8\..\Drivers\inc\stm8s_adc2.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\Source\stm8s_conf.h \
+  D:\embedded-and-hardware\applications\STM8_Projects\STM8S207R8T6\STM8S003F3P6_RF433_RF315_LEARN_CODE\Source\main.cpp

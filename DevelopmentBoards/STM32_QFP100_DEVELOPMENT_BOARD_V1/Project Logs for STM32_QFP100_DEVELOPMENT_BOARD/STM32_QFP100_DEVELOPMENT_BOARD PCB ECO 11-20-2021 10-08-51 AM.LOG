@@ -1,0 +1,10 @@
+Added Component: Designator=U2(SOT223-3)
+Added Component: Designator=U3(SOT223-3)
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Pin To Net: NetName=VCC Pin=U2-2
+Added Pin To Net: NetName=+5 Pin=U2-3
+Added Pin To Net: NetName=GND Pin=U3-1
+Added Pin To Net: NetName=NetC4_2 Pin=U3-2
+Added Pin To Net: NetName=NetC3_2 Pin=U3-3
+Added Member To Class: ClassName=STM32_QFP100_DEVELOPMENT_BOARD Member=Component U2 3.3V
+Added Member To Class: ClassName=STM32_QFP100_DEVELOPMENT_BOARD Member=Component U3 5V

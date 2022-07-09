@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetD6_1 Pin=J1-1
+Removed Pin From Net: NetName=NetD1_1 Pin=J1-2
+Added Pin To Net: NetName=NetD1_1 Pin=J1-1
+Added Pin To Net: NetName=NetD6_1 Pin=J1-2
+Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3
