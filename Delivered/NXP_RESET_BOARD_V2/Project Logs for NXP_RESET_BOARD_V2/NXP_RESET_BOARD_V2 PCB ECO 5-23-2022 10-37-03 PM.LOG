@@ -1,9 +1,0 @@
-Added Component: Designator=U4(ENC28J60)
-Added Pin To Net: NetName=SO Pin=U4-4
-Added Pin To Net: NetName=SI Pin=U4-5
-Added Pin To Net: NetName=SCK Pin=U4-6
-Added Pin To Net: NetName=CS Pin=U4-7
-Added Pin To Net: NetName=NetC2_1 Pin=U4-9
-Added Pin To Net: NetName=GND Pin=U4-10
-Added Member To Class: ClassName=NXP_RESET_BOARD_V2 Member=Component U4 ENC28J60 module
-Added Room: Name=NXP_RESET_BOARD_V2
