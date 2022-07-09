@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=NetC2_2 Pin=T1-7
-Removed Pin From Net: NetName=NetD2_1 Pin=T1-9
-Change Component Footprint: Designator=T1 Old Footprint=TRANSFORMER-EE22-VERTICAL(5+5) New Footprint=TRANSFORMERS-EE16(5+5)-H
-Change Component Comment : Designator=T1 Old Comment=EE22 New Comment=EE16
-Added Pin To Net: NetName=NetC2_2 Pin=T1-6
-Added Pin To Net: NetName=NetD2_1 Pin=T1-10
-Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY_V1_3

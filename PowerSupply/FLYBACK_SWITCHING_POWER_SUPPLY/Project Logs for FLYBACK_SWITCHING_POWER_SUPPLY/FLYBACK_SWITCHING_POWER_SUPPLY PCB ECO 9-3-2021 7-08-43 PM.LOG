@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=D3-1
-Removed Pin From Net: NetName=NetC2_1 Pin=R2-1
-Removed Member From Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=D3
-Removed Member From Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY Member=R2
-Added Pin To Net: NetName=NetC2_1 Pin=U1-4
-Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY

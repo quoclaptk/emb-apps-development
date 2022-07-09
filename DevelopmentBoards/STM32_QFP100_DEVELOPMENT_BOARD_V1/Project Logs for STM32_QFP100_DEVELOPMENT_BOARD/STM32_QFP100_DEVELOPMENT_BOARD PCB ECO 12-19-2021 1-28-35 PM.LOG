@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=+5 Pin=SW5-5
-Removed Pin From Net: NetName=NetJ10_1 Pin=SW5-6
-Removed Member From Class: ClassName=STM32_QFP100_DEVELOPMENT_BOARD Member=SW?
-Change Component Comment : Designator=SW? Old Comment=SWITCH-DPDT New Comment=SWITCH
-Change Component Designator: OldDesignator=SW? NewDesignator=SW5
-Added Pin To Net: NetName=+5 Pin=SW5-5
-Added Pin To Net: NetName=NetJ10_1 Pin=SW5-6

@@ -1,5 +1,0 @@
-Added Pin To Net: NetName=nRST Pin=SW1-1
-Added Pin To Net: NetName=PE10 Pin=SW2-1
-Added Pin To Net: NetName=PE11 Pin=SW3-1
-Added Pin To Net: NetName=PE12 Pin=SW4-1
-Added Room: Name=STM32_QFP100_DEVELOPMENT_BOARD

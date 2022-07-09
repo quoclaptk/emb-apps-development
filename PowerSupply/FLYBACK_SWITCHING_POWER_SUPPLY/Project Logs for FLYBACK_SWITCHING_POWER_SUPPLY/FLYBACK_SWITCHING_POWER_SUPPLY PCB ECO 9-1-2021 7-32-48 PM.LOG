@@ -1,3 +1,0 @@
-Change Component Footprint: Designator=C3 Old Footprint=CAP_RAD_D10x12.5 New Footprint=CAP_RAD_D12.5x15
-Change Component Comment : Designator=C3 Old Comment=10uF New Comment=470uF
-Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY

@@ -1,6 +1,0 @@
-Added Component: Designator=Q2(TO-92)
-Added Pin To Net: NetName=NetC2_2 Pin=Q2-1
-Added Pin To Net: NetName=NetQ2_2 Pin=Q2-2
-Added Pin To Net: NetName=NetC1_2 Pin=Q2-3
-Added Member To Class: ClassName=FLYBACK_SWITCHING_POWER_SUPPLY_V1_2 Member=Component Q2 BC547
-Added Room: Name=FLYBACK_SWITCHING_POWER_SUPPLY_V1_2
