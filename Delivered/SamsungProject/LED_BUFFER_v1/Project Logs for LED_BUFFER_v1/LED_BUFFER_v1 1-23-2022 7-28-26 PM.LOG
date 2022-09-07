@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=24V Pin=C8-1
-Change Component Designator: OldDesignator=F? NewDesignator=F1
-Added Pin To Net: NetName=NetC9_1 Pin=C8-1
-Change Net Name : Old Net Name=24V New Net Name=NetD1_2
-Change Net Name : Old Net Name=NetC9_1 New Net Name=24V

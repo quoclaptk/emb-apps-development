@@ -187,7 +187,7 @@ void display_time(void)
     lcd.setCursor(1, 0);
     if(time.dy>0)lcd.print(daysOfWeek[time.dy-1]);
     else lcd.print("---");
-    sprintf(lcdBuff, " %02d/%02d/20%02d", time.dt, time.mt, time.yr);
+    sprintf(lcdBuff, " %02d/%02d/%04d", time.dt, time.mt, time.yr);
     lcd.print(lcdBuff);
     lcd.setCursor(3, 1);
     sprintf(lcdBuff, " %02d:%02d:%02d ", time.h, time.m, time.s);
