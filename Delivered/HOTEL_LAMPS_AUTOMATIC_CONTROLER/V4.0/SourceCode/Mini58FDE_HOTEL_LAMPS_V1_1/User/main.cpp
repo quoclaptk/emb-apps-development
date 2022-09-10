@@ -129,20 +129,20 @@ int main()
 //	set_time();
 	lcd.backlight();
 	/* Set default lamps control */
-	set_ram(ADDR_TIME_ON_RANGE_01, 16);
-	set_ram(ADDR_TIME_OFF_RANGE_01, 18);
+//	set_ram(ADDR_TIME_ON_RANGE_01, 18);
+//	set_ram(ADDR_TIME_OFF_RANGE_01, 6);
+//
+//	set_ram(ADDR_TIME_ON_RANGE_02, 0);
+//	set_ram(ADDR_TIME_OFF_RANGE_02, 5);
+//
+//	set_ram(ADDR_TIME_ON_RANGE_03, 18);
+//	set_ram(ADDR_TIME_OFF_RANGE_03, 12);
 
-	set_ram(ADDR_TIME_ON_RANGE_02, 18);
-	set_ram(ADDR_TIME_OFF_RANGE_02, 1);
+//	set_ram(ADDR_TIME_ON_RANGE_04, 3);
+//	set_ram(ADDR_TIME_OFF_RANGE_04, 5);
 
-	set_ram(ADDR_TIME_ON_RANGE_03, 1);
-	set_ram(ADDR_TIME_OFF_RANGE_03, 3);
-
-	set_ram(ADDR_TIME_ON_RANGE_04, 3);
-	set_ram(ADDR_TIME_OFF_RANGE_04, 5);
-
-	set_ram(ADDR_TIME_ON_RANGE_05, 5);
-	set_ram(ADDR_TIME_OFF_RANGE_05, 6);
+//	set_ram(ADDR_TIME_ON_RANGE_05, 5);
+//	set_ram(ADDR_TIME_OFF_RANGE_05, 6);
 	while(1)
 	{
 		if((BUTTON_PIN1 == 0)&&(BUTTON_PIN2 == 0)&&(set == false)&&(set_control == false))
@@ -367,48 +367,35 @@ void runProgram(void)
     uint8_t temp = 0;
     if(manualStatus==false)
     {
-        get_time(); display_time();
-        /* 16h -> 18h */
-        temp = read_ram(ADDR_TIME_ON_RANGE_01);
-        temp = read_ram(ADDR_TIME_OFF_RANGE_01);
-        if((time.h>=read_ram(ADDR_TIME_ON_RANGE_01))&&(time.h<read_ram(ADDR_TIME_OFF_RANGE_01)))
-        {
-        	lampSet(controlData, 13);
-        }
-        /* 18h -> 1h */
-        else if(((time.h>=read_ram(ADDR_TIME_ON_RANGE_02))&&(time.h<=23))||((time.h>=0)&&(time.h<read_ram(ADDR_TIME_OFF_RANGE_02))))
-        {
-            controlData = 0xFFFFFFFF;/* all lamps */
-        }
-        /* 1h -> 3h */
-        else if((time.h>=read_ram(ADDR_TIME_ON_RANGE_03))&&(time.h<read_ram(ADDR_TIME_OFF_RANGE_03)))
-        {
-        	lampSet(controlData, 2); lampSet(controlData, 4); lampSet(controlData, 6);
-        	lampSet(controlData, 7); lampSet(controlData, 9); lampSet(controlData, 11);
-        	lampSet(controlData, 13); lampSet(controlData, 15); lampSet(controlData, 17);
-        	lampSet(controlData, 19); lampSet(controlData, 20); lampSet(controlData, 21);
-        	lampSet(controlData, 22); lampSet(controlData, 23); lampSet(controlData, 24);
-        }
-        /* 3h -> 5h */
-        else if((time.h>=read_ram(ADDR_TIME_ON_RANGE_04))&&(time.h<read_ram(ADDR_TIME_OFF_RANGE_04)))
-        {
-        	lampSet(controlData, 13); lampSet(controlData, 20); lampSet(controlData, 21);
-        	lampSet(controlData, 22); lampSet(controlData, 23); lampSet(controlData, 24);
-        }
-        /* 5h -> 6h */
-        else if((time.h>=read_ram(ADDR_TIME_ON_RANGE_05))&&(time.h<read_ram(ADDR_TIME_OFF_RANGE_05)))
-        {
-        	lampSet(controlData, 20); lampSet(controlData, 21);
-        	lampSet(controlData, 23); lampSet(controlData, 24);
-        }
-        else controlData = 0x00000000;
+    	get_time(); display_time();
+    	uint16_t curentTime = convert_time_to_minute(time.h, time.m);
+    	if((time.h>=18) && (time.h<=23)) // Buoi toi
+    	{
+			if((curentTime >= convert_time_to_minute(18, 15))&&(curentTime <= convert_time_to_minute(23, 59)))
+			{
+				lampSet(controlData, 21); // den tang 1
+				lampSet(controlData, 22); // den tang 2
+			}
+    	}
+    	else if((time.h>=0) && (time.h<=6)) // dau sang
+    	{
+    		if((curentTime >= convert_time_to_minute(0, 0))&&(curentTime <= convert_time_to_minute(5, 30)))
+			{
+				lampSet(controlData, 21); // den tang 1
+				lampSet(controlData, 23); // den cay
+			}
+    	}
+    	else
+		{
+			controlData = 0x00000000;
+		}
     }
     else /* check user manual before write */
     {
         controlData=0xFFFFFFFF;
     }
     /* Write to output */
-    writeControlLapms(controlData); /* write data to output */
+    writeControlLapms(~controlData); /* write data to output */
 }
 /******************************************************************************/
 /*** (C) COPYRIGHT 2014 Nuvoton Technology Corp. ***/
