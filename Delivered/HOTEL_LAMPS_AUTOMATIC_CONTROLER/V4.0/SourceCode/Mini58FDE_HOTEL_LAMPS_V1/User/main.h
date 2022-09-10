@@ -54,6 +54,7 @@ typedef enum
 #define bitSet(value, bit) ((value) |= (1UL << (bit)))
 #define bitClear(value, bit) ((value) &= ~(1UL << (bit)))
 #define lampSet(value, bit) bitSet(value, bit+6)
+#define lampReset(value, bit) bitClear(value, bit+6)
 typedef enum {RESET = 0, SET = !RESET} FlagStatus, ITStatus, BitStatus, BitAction;
 #define delay(x) TIMER_Delay(TIMER1, x*1000); /* delay x ms */
 #define delayMicroseconds(x) TIMER_Delay(TIMER1, x); /* delay x us */

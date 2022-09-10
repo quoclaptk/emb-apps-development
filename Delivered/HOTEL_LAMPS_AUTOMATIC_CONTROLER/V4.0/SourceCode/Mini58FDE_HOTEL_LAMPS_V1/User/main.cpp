@@ -48,8 +48,8 @@ static void display_time(void);
 static void setup_time(void);
 static void get_time(void);
 static void set_time(void);
-static void show_value(unsigned char x_pos, unsigned char y_pos, unsigned char value);
-static unsigned char adjust(unsigned char x_pos, unsigned char y_pos, const char value_max, const char value_min, signed char value);
+static void show_value(uint8_t x_pos, uint8_t y_pos, uint16_t value);
+static uint16_t adjust(const uint8_t x_pos, const uint8_t y_pos, const uint16_t value_max, const uint16_t value_min, uint16_t value);
 void setup_time_control(void);
 void adjust_time_control(unsigned char x_pos, unsigned char y_pos, unsigned char ramAddr);
 inline void set_ram(unsigned char ramAddr, unsigned char hr);
@@ -112,11 +112,11 @@ void writeControlLapms(uint32_t data)
 int main()
 {
 	time.s = 0;
-	time.m = 39;
-	time.h = 0;
-	time.dy = 1;
-	time.dt = 22;
-	time.mt = 5;
+	time.m = 16;
+	time.h = 9;
+	time.dy = 6;
+	time.dt = 10;
+	time.mt = 9;
 	time.yr = 2022;
 	SYS_UnlockReg();
 	SYS_Init();
@@ -204,7 +204,7 @@ void setup_time(void)
         case 3:{time.dy = adjust(1, 0, 7, 1, time.dy);}break;
         case 4:{time.dt = adjust(5, 0, 31, 1, time.dt);}break;
         case 5:{time.mt = adjust(8, 0, 12, 1, time.mt);}break;
-        case 6:{time.yr = adjust(13, 0, 99, 0, time.yr);}break;
+        case 6:{time.yr = adjust(11, 0, 2099, 2022, time.yr);}break;
     }
 }
 /******************************************************************************/
@@ -226,7 +226,7 @@ void setup_time_control(void)
     }
 }
 /******************************************************************************/
-unsigned char adjust(unsigned char x_pos, unsigned char y_pos, const char value_max, const char value_min, signed char value)
+uint16_t adjust(const uint8_t x_pos, const uint8_t y_pos, const uint16_t value_max, const uint16_t value_min, uint16_t value)
 {
     if(menu<3)
     {
@@ -236,8 +236,9 @@ unsigned char adjust(unsigned char x_pos, unsigned char y_pos, const char value_
         lcd.print('>');
     }
     lcd.setCursor(x_pos, y_pos);
-    if(menu==3)lcd.print("   ");
-    else lcd.print("  ");
+    if(menu==3)lcd.print("   "); // space for day of week name
+    else if(menu==6)lcd.print("    "); // space for year
+    else lcd.print("  "); // basic time
     delay_ms(200);
     if(menu == 3)
     {
@@ -334,11 +335,13 @@ void set_ram(uint8_t ramAddr, uint8_t data)
     rtc.setRegByte(ramAddr, data); /* save hour */
 }
 /******************************************************************************/
-void show_value(uint8_t x_pos, uint8_t y_pos, uint8_t value)
+void show_value(uint8_t x_pos, uint8_t y_pos, uint16_t value)
 {
     char valBuff[2];
     lcd.setCursor(x_pos, y_pos);
-    sprintf(valBuff, "%02d", value);
+    if(value<100)sprintf(valBuff, "%02d", value);
+    else if((value>=100) && (value<=255))sprintf(valBuff, "%03d", value);
+    else sprintf(valBuff, "%04d", value);
     lcd.print(valBuff);
 }
 /******************************************************************************/
@@ -351,6 +354,11 @@ void get_time(void)
     time.dt = rtc.getDate();
     time.mt = rtc.getMonth();
     time.yr = rtc.getYear();
+}
+/******************************************************************************/
+uint16_t convert_time_to_minute(uint8_t hour, uint8_t minute)
+{
+	return (hour*60 + minute);
 }
 /******************************************************************************/
 void runProgram(void)
@@ -400,16 +408,16 @@ void runProgram(void)
         controlData=0xFFFFFFFF;
     }
     /* Write to output */
-    if(controlData != controlDataOld)/* If have different of the lamps status */
-    {
-        for(char i=0; i<10; i++)
-        {
-            writeControlLapms(controlData); /* write data to output */
-            delay_ms(20);
-        }
-        controlDataOld = controlData; /* Update new status */
-    }
-//    writeControlLapms(controlData); /* write data to output */
+//    if(controlData != controlDataOld)/* If have different of the lamps status */
+//    {
+//        for(char i=0; i<10; i++)
+//        {
+//            writeControlLapms(~controlData); /* write data to output */
+//            delay_ms(20);
+//        }
+//        controlDataOld = controlData; /* Update new status */
+//    }
+    writeControlLapms(~controlData); /* write data to output */
 }
 /******************************************************************************/
 /*** (C) COPYRIGHT 2014 Nuvoton Technology Corp. ***/
