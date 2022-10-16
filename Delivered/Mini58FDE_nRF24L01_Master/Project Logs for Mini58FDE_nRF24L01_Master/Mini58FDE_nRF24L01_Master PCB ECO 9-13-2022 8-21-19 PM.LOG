@@ -1,0 +1,55 @@
+Added Component: Designator=R5(RES-0.25W-H)
+Added Component: Designator=R6(RES-0.25W-H)
+Added Component: Designator=R7(RES-0.25W-H)
+Added Component: Designator=R8(RES-0.25W-H)
+Added Component: Designator=R9(RES-0.25W-H)
+Added Component: Designator=R10(RES-0.25W-H)
+Added Component: Designator=SW1(BUTTON_HOLE_4.3mm)
+Added Component: Designator=SW2(BUTTON_HOLE_4.3mm)
+Added Component: Designator=SW3(BUTTON_HOLE_4.3mm)
+Added Component: Designator=SW4(BUTTON_HOLE_4.3mm)
+Added Component: Designator=SW5(BUTTON_HOLE_4.3mm)
+Added Component: Designator=SW6(BUTTON_HOLE_4.3mm)
+Added Pin To Net: NetName=VCC Pin=R5-2
+Added Pin To Net: NetName=VCC Pin=R6-2
+Added Pin To Net: NetName=VCC Pin=R7-2
+Added Pin To Net: NetName=VCC Pin=R8-2
+Added Pin To Net: NetName=VCC Pin=R9-2
+Added Pin To Net: NetName=VCC Pin=R10-2
+Added Pin To Net: NetName=GND Pin=SW1-4
+Added Pin To Net: NetName=GND Pin=SW2-4
+Added Pin To Net: NetName=GND Pin=SW3-4
+Added Pin To Net: NetName=GND Pin=SW4-4
+Added Pin To Net: NetName=GND Pin=SW5-4
+Added Pin To Net: NetName=GND Pin=SW6-4
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_1 Pin=SW6-2
+Added Net: Name=NetR5_1
+Added Pin To Net: NetName=NetR6_1 Pin=R6-1
+Added Pin To Net: NetName=NetR6_1 Pin=SW5-2
+Added Net: Name=NetR6_1
+Added Pin To Net: NetName=NetR7_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=SW4-2
+Added Net: Name=NetR7_1
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_1 Pin=SW3-2
+Added Net: Name=NetR8_1
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=NetR9_1 Pin=SW2-2
+Added Net: Name=NetR9_1
+Added Pin To Net: NetName=NetR10_1 Pin=R10-1
+Added Pin To Net: NetName=NetR10_1 Pin=SW1-2
+Added Net: Name=NetR10_1
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component R5 10K
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component R6 10K
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component R7 10K
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component R8 10K
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component R9 10K
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component R10 10K
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component SW1 Button Hole
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component SW2 Button Hole
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component SW3 Button Hole
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component SW4 Button Hole
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component SW5 Button Hole
+Added Member To Class: ClassName=Mini58FDE_nRF24L01_Master Member=Component SW6 Button Hole
+Added Room: Name=Mini58FDE_nRF24L01_Master
